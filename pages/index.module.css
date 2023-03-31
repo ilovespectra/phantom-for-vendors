@@ -1,28 +1,72 @@
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-    text-align: center;
+#my-page {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url('/background.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: white;
+    overflow: hidden;
   }
-
   
   .translucentBox {
-    background-color: rgba(255, 255, 255, 0.2); /* Set the background color to white with 20% opacity */
+    background-color: rgba(255, 255, 255, 0.2);
     padding: 30px;
     border-radius: 30px;
+    width: 80%;
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
+  .container .translucentBox h1 {
+    margin-top: 0;
+  }
+  
+  .container .translucentBox p {
+    margin-bottom: 0;
+  }
+  
+  .container .translucentBox p:last-child {
+    margin-bottom: 2rem;
+  }
+  
+  .container .translucentBox ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container .translucentBox ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .container .translucentBox ul li a {
+    color: white;
+    text-decoration: underline;
+  }
   
   .graphics {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .graphics img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 10px;
   }
   
   .animation {
@@ -33,4 +77,17 @@
     display: block;
     margin: 0 auto;
   }
+
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logoContainer img {
+    width: 120px;
+    height: 120px;
+    margin: 10px;
+  }
+  
   

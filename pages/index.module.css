@@ -28,6 +28,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+
   }
   
   .container .translucentBox h1 {

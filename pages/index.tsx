@@ -32,8 +32,8 @@ const IndexPage = () => {
           To learn more about Solana and USDC, check out these resources:
           <ul>
             <div className={styles.graphics}>
-              <li><a href="https://solana.com/">Solana official website</a></li>
-              <li><a href="https://www.circle.com/en/usdc">USDC official website</a></li>
+              <p><a href="https://solana.com/">Solana official website</a><br></br>
+              <a href="https://www.circle.com/en/usdc">USDC official website</a></p>
             </div>
           </ul>
         </p>

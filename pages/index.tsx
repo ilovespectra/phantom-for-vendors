@@ -3,7 +3,7 @@ import styles from './index.module.css';
 
 const IndexPage = () => {
   return (
-    <div className={styles.container}>
+    <div id="my-page" className={styles.container}>
       <div className={styles.translucentBox}>
         <h1>Welcome to HeliumDenver!</h1>
         <p><br></br>
@@ -20,17 +20,21 @@ const IndexPage = () => {
         <p>
           Remember to always keep your seed phrase secure and never share it with anyone!
         </p>
-        <div className={styles.graphics}>
-          <Image src="/helium.png" alt="Helium logo" width={180} height={180} />
-          <Image src="/phantom.png" alt="Phantom logo" width={180} height={180} />
-          <Image src="/solana.png" alt="Solana logo" width={180} height={180} />
-          <Image src="/usdc.svg" alt="USDC logo" width={180} height={180} />
+        <div className={styles.logoContainer}>
+          <Image src="/helium.png" alt="Helium logo" width={120} height={120} />
+          <Image src="/phantom.png" alt="Phantom logo" width={120} height={120} />
+          <Image src="/solana.png" alt="Solana logo" width={120} height={120} />
+          <Image src="/usdc.svg" alt="USDC logo" width={120} height={120} />
         </div>
+
+
         <p>
           To learn more about Solana and USDC, check out these resources:
           <ul>
-            <li><a href="https://solana.com/">Solana official website</a></li>
-            <li><a href="https://www.circle.com/en/usdc">USDC official website</a></li>
+            <div className={styles.graphics}>
+              <li><a href="https://solana.com/">Solana official website</a></li>
+              <li><a href="https://www.circle.com/en/usdc">USDC official website</a></li>
+            </div>
           </ul>
         </p>
         <div className={styles.animation}>

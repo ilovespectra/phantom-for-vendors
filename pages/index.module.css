@@ -1,0 +1,23 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .graphics {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .animation {
+    margin-top: 2rem;
+  }
+  
+  .animation svg {
+    display: block;
+    margin: 0 auto;
+  }
+  

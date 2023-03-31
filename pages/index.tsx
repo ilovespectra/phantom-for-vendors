@@ -16,6 +16,7 @@ const IndexPage = () => {
           <li><a href="https://help.phantom.app/hc/en-us/articles/4406393831187-How-to-deposit-ETH-MATIC-and-SOL-in-my-Phantom-wallet-" target="_blank">Fund your wallet</a></li>
           <li><a href="https://github.com/ilovespectra/helium-solana-support/blob/main/walkthroughs/request-usdc.md" target="_blank">Request USDC</a></li>
           <li><a href="https://github.com/ilovespectra/helium-solana-support/blob/main/walkthroughs/send-usdc.md" target="_blank">Send USDC</a></li>
+          <li><a href="https://github.com/ilovespectra/helium-solana-support/blob/main/walkthroughs/swapping.md" target="_blank">Swapping SPL Tokens</a></li>
         </ol>
         <p>
           Remember to always keep your seed phrase secure and never share it with anyone!

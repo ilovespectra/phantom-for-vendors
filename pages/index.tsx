@@ -21,10 +21,10 @@ const IndexPage = () => {
           Remember to always keep your seed phrase secure and never share it with anyone!
         </p>
         <div className={styles.logoContainer}>
-          <Image src="/helium.png" alt="Helium logo" width={120} height={120} />
-          <Image src="/phantom.png" alt="Phantom logo" width={120} height={120} />
-          <Image src="/solana.png" alt="Solana logo" width={120} height={120} />
-          <Image src="/usdc.svg" alt="USDC logo" width={120} height={120} />
+          <Image src="/helium.png" alt="Helium logo" width={90} height={90} />
+          <Image src="/phantom.png" alt="Phantom logo" width={90} height={90} />
+          <Image src="/solana.png" alt="Solana logo" width={90} height={90} />
+          <Image src="/usdc.svg" alt="USDC logo" width={90} height={90} />
         </div>
 
 

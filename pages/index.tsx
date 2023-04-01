@@ -34,7 +34,9 @@ const IndexPage = () => {
           <ul>
             <div className={styles.graphics}>
               <p><a href="https://solana.com/">Solana official website</a><br></br>
-              <a href="https://www.circle.com/en/usdc">USDC official website</a></p>
+              <a href="https://www.circle.com/en/usdc">USDC official website</a><br></br>
+              <a href="https://helium.com" target="_blank">Helium official website</a><br></br>
+              <a href="https://heliumdenver.com" target="_blank">HeliumDenver official website</a></p>
             </div>
           </ul>
         </p>
